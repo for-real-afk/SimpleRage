@@ -1,0 +1,20 @@
+
+    # Test Document for RAG System
+    
+    This is a test document to verify the RAG system is working correctly.
+    
+    Key Information:
+    - The system uses Pinecone for vector storage
+    - Gemini is used for embeddings and answer generation
+    - The application is optimized for Render's free tier
+    
+    Technical Details:
+    - Maximum file size: 2MB
+    - Chunk size: 500 characters
+    - Embedding model: text-embedding-004
+    - LLM model: gemini-2.0-flash-exp
+    
+    This document should be split into multiple chunks and stored in the vector database.
+    When queried, the system should be able to retrieve relevant information and generate
+    accurate answers based on this content.
+    
